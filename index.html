@@ -28,15 +28,30 @@ body {
   #left {
     text-align: left;
  }
+  figure {
+  border: 1px solid;
+  display: inline-block;
+  margin: 0;
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 1em;
+  left: 0;
+  background-color: yellow;
+  width: 100%;
+}
     
 </style>
   </head>
   <body>
 <header> <h1>Ekaterina Osipova</h1></header>
     
-<div">
+<figure class="fig">
 <img src="foto3.jpg" style="float: left; margin: 0px 15px 15px 0px;"> 
-</div>
+   <figcaption class="image-caption-text">Some caption</figcaption>
+</figure>
     
   <p>Hello. My name is Ekaterina and I am currently a Master's student of science and technology studies (STS) at the University of Vienna.</p>
   <p>I am interested in a range of topics focusing on gender and sexuality and their intersections with science and technology, queer and trans health, public engagement with techno-science as well as hacking and tinkering. I am particularly fond of post-actor-network-theories like ontological politics, assemblage thinking, and care in/for techno-science.</p>
